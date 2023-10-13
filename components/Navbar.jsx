@@ -1,7 +1,8 @@
 'use client';
+
 import { motion } from 'framer-motion';
-import styles from '../styles'
-import { navVariants } from '../utils/motion'
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
 
 const Navbar = () => (
   <motion.nav
@@ -17,7 +18,7 @@ const Navbar = () => (
         alt="search"
         className="w=[24px] h-[24px] object-contain"
       />
-      <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
+      <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         METAVERSUS
       </h2>
       <img
